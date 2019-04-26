@@ -1,0 +1,42 @@
+/* pages/map/map.wxss */
+#myMap{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.btnRefresh{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 30px;
+}
+
+.start{
+    position: fixed;
+    height: 40px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(65, 65, 65, 0.81);
+    border-radius: 10px;
+    bottom: 20px;
+    left: 20px;
+}
+
+.startImg{
+    float: left;
+    margin-left: 10px;
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.startText{
+    float: right;
+    margin-right: 10px;
+    line-height: 40px;
+    font-family: '幼圆';
+    font-size: 20px;
+    font-weight: bolder;
+}

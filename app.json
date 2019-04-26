@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#009FCC",
+    "navigationBarTitleText": "课堂点名",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/首页.png",
+        "selectedIconPath": "icons/首页1.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "签到",
+        "iconPath": "icons/定位1.png",
+        "selectedIconPath": "icons/定位.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "icons/我的.png",
+        "selectedIconPath": "icons/我的1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

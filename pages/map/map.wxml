@@ -1,0 +1,27 @@
+<!--pages/map/map.wxml-->
+<!--<text>pages/map/map.wxml</text>-->
+<map
+        id="myMap"
+        scale="18"
+        subkey="KDABZ-4FPWP-B75DC-LWCVL-JMLWJ-37BHS"
+        longitude="{{longitude}}"
+        latitude="{{latitude}}"
+        markers="{{markers}}"
+>
+    <cover-image class="btnRefresh"
+                 bindtap="getLocation"
+                 src="../../icons/map/刷新.png"
+    ></cover-image>
+    <cover-view class="start" bindtap="start">
+        <cover-image class="startImg" src="../../icons/map/开始点名.png"></cover-image>
+        <cover-view class="startText">开始答道</cover-view>
+    </cover-view>
+    <!--<cover-view class="start">-->
+    <!--<cover-image class="startBtn"-->
+    <!--bindtap="getLocation"-->
+    <!--src="../../icons/map/开始点名.png"-->
+    <!--&gt;</cover-image>-->
+    <!--<text>开始点名</text>-->
+    <!--</cover-view>-->
+</map>
+
