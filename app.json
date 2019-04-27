@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/map/map",
     "pages/index/index",
+    "pages/map/map",
     "pages/logs/logs"
   ],
   "permission": {

@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "i-button": "../../dist/button/index"
+    "i-button": "../../dist/button/index",
+    "i-spin": "../../dist/spin/index",
+    "i-icon": "../../dist/icon/index"
+
   }
 }

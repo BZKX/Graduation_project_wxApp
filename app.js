@@ -1,3 +1,6 @@
+//引入监听watch
+const watch = require("./utils/watch.js");
+
 //app.js
 App({
     onLaunch: function () {
@@ -7,31 +10,14 @@ App({
         wx.setStorageSync('logs', logs)
 
         // 登录
-        wx.login({
-            success: res => {
-                // 发送 res.code 到后台换取 openId, sessionKey, unionId
-                console.log('loginCode:', res.code);
-                wx.request({
-                    url: "http://148.70.100.32/weApp/getopenid",
-                    method: 'GET', //请求方式
-                    header: {
-                        'Content-Type': 'application/json',
-                    },
-                    data: {
-                        code: res.code,  //参数
-                    },
-                    success: function (res) {
-                        console.log(res.data.data);
-                    },
-                    fail: function () {
-                        console.log("请求数据失败");
-                    },
-                    complete: function () {
-                        // complete
-                    }
-                })
-            }
-        })
+        // wx.login({
+        //     success: res => {
+        //         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        //         this.globalData.loginCode = res.code;
+        //         let that = this;
+        //         console.log(this.globalData.loginCode);
+        //     }
+        // })
         // 获取用户信息
         wx.getSetting({
             success: res => {
@@ -41,7 +27,7 @@ App({
                         success: res => {
                             // 可以将 res 发送给后台解码出 unionId
                             this.globalData.userInfo = res.userInfo
-
+                            // console.log(res.userInfo);
                             // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
                             // 所以此处加入 callback 以防止这种情况
                             if (this.userInfoReadyCallback) {
@@ -54,6 +40,12 @@ App({
         })
     },
     globalData: {
-        userInfo: null
+        userInfo: null,
+        doLogin:true
+    },
+    //设置监听
+    setWatcher(page){
+        watch.setWatcher(page);
     }
+
 })
