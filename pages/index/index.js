@@ -32,8 +32,7 @@ Page({
                 let that = this;
                 // 发送 res.code 到后台换取 openId, sessionKey, unionId
                 wx.request({
-                    //线上服务器地址
-                    url:"http://148.70.100.32/weApp/getopenid",
+                    //线上测试服务器地址
                     //本地测试后端地址
                     // url: "http://localhost:8080/weApp/getopenid",
                     method: 'GET', //请求方式
