@@ -2,212 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6491cd4-ed07-4461-b8c3-b995e135192c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/action-sheet/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/action-sheet/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/action-sheet/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/action-sheet/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/alert/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/alert/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/alert/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/alert/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/avatar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/avatar/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/avatar/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/avatar/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/badge/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/badge/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/badge/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/badge/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/base/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/button/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/button/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/button/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/button/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/card/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/card/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/card/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/card/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell-group/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell-group/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell-group/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cell/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox-group/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox-group/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox-group/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox-group/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/code.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkbox/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/col/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/col/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/col/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/col/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse-item/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse-item/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse-item/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/collapse/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/count-down/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/count-down/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/count-down/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/count-down/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/divider/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/divider/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/divider/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/divider/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/drawer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/drawer/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/drawer/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/drawer/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-icon/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-icon/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-icon/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-icon/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-item/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-item/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-item/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-label/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-label/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-label/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid-label/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/grid/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index-item/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index-item/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index-item/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input-number/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input-number/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input-number/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input-number/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/input/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/load-more/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/load-more/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/load-more/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/load-more/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/message/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/message/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/message/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/message/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/modal/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/modal/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/modal/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/modal/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notice-bar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notice-bar/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notice-bar/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/notice-bar/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/page/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/page/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/page/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/page/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/panel/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/panel/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/panel/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/panel/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/progress/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/progress/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/progress/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/progress/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio-group/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio-group/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio-group/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio-group/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/radio/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/rate/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/rate/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/rate/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/rate/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/row/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/row/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/row/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/row/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/slide/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/slide/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/slide/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/slide/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/spin/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/spin/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/spin/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/spin/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/step/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/step/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/step/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/step/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/steps/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/steps/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/steps/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/steps/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky-item/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky-item/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky-item/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sticky/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/swipeout/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/swipeout/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/swipeout/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/swipeout/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/switch/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/switch/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/switch/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/switch/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar-item/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar-item/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar-item/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar-item/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab-bar/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tab/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tabs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tabs/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tabs/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tabs/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/toast/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/toast/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/toast/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/toast/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.md" beforeDir="false" afterPath="$PROJECT_DIR$/code.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -219,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4680851">
+    <splitter split-orientation="horizontal" split-proportion="0.44618273">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="71" column="57" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="57" />
+                <state relative-caret-position="195">
+                  <caret line="72" column="41" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -243,17 +42,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/index/index.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                <state relative-caret-position="286">
+                  <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -265,8 +55,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/index/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="143" column="14" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
+                <state relative-caret-position="3466">
+                  <caret line="271" column="33" lean-forward="true" selection-start-line="271" selection-start-column="33" selection-end-line="271" selection-end-column="33" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -277,8 +67,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="15" column="20" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="20" />
+                <state relative-caret-position="1092">
+                  <caret line="42" column="16" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -287,8 +77,8 @@
             <entry file="file://$PROJECT_DIR$/code.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="104">
-                    <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                  <first_editor relative-caret-position="78">
+                    <caret line="3" column="6" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="6" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -313,6 +103,7 @@
       <find>t</find>
       <find>i-button</find>
       <find>i-spin</find>
+      <find>role</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -332,8 +123,8 @@
         <option value="$PROJECT_DIR$/pages/index/index.wxss" />
         <option value="$PROJECT_DIR$/libs/watch.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/code.md" />
         <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/code.md" />
         <option value="$PROJECT_DIR$/pages/index/index.json" />
         <option value="$PROJECT_DIR$/pages/index/index.wxml" />
         <option value="$PROJECT_DIR$/pages/index/index.js" />
@@ -353,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,12 +172,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/myapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -439,7 +230,9 @@
       <workItem from="1556341251163" duration="10562000" />
       <workItem from="1556376456145" duration="658000" />
       <workItem from="1556435385816" duration="14483000" />
-      <workItem from="1556512977608" duration="7591000" />
+      <workItem from="1556512977608" duration="12185000" />
+      <workItem from="1556549425191" duration="435000" />
+      <workItem from="1556597328799" duration="8451000" />
     </task>
     <task id="LOCAL-00001" summary="添加watch.js 实现监听,完成openid的获取,完成登陆遮罩层显示/消失">
       <created>1556348054027</created>
@@ -455,17 +248,40 @@
       <option name="project" value="LOCAL" />
       <updated>1556348415816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成注册上拉菜单的显示和功能实现">
+      <created>1556525133494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556525133495</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成注册上拉菜单的显示和功能实现">
+      <created>1556525730756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556525730756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72933000" />
+    <option name="totallyTimeSpent" value="86413000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15806112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0943098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -474,7 +290,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924107" />
@@ -509,7 +325,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加watch.js 实现监听,完成openid的获取,完成登陆遮罩层显示/消失" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加watch.js 实现监听,完成openid的获取,完成登陆遮罩层显示/消失" />
+    <MESSAGE value="完成注册上拉菜单的显示和功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成注册上拉菜单的显示和功能实现" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/weapp-support-plugin.jar!/lib/weixin-app/index.d.ts">
@@ -606,20 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -629,32 +432,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="1092">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="104">
-            <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <first_editor relative-caret-position="78">
+            <caret line="3" column="6" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="57" />
+        <state relative-caret-position="195">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="143" column="14" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
+        <state relative-caret-position="3466">
+          <caret line="271" column="33" lean-forward="true" selection-start-line="271" selection-start-column="33" selection-end-line="271" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -9,21 +9,22 @@
         </block>
     </view>
     <view class="usermotto">
-        <van-button  type="primary">
-            <text class="user-motto">{{motto}}</text>
+        <van-button type="primary">
+            <text class="user-motto">发送测试请求</text>
         </van-button>
     </view>
 
 </view>
 
 <van-toast id="van-toast"></van-toast>
-<van-action-sheet show="{{ show }}" title="注册" safe-area-inset-bottom = "false">
+<van-action-sheet show="{{ show }}" title="注册" safe-area-inset-bottom="false">
     <view>
         <van-cell-group>
             <van-switch-cell
                     id="teacher"
                     title="我是 {{ register.roleText }}"
                     checked="{{ register.teacher }}"
+                    disabled="{{register.formDisabled}}"
                     bind:change="onChange"
             />
             <van-field
@@ -31,7 +32,8 @@
                     placeholder="请输入姓名"
                     label="姓名"
                     left-icon="contact"
-                    value = "{{register.submit.name}}"
+                    value="{{register.submit.name}}"
+                    disabled="{{register.formDisabled}}"
                     bind:blur="setValue"
             >
             </van-field>
@@ -40,8 +42,9 @@
                     placeholder="请输入{{register.id}}"
                     label="{{register.id}}"
                     left-icon="coupon-o"
-                    value = "{{register.submit.id}}"
+                    value="{{register.submit.id}}"
                     error-message="{{ register.idError }}"
+                    disabled="{{register.formDisabled}}"
                     bind:blur="setValue"
             >
             </van-field>
@@ -49,8 +52,9 @@
                     placeholder="请输入教师确认码"
                     label="确认码"
                     left-icon="user-circle-o"
-                    wx:if = "{{register.teacher}}"
-                    value = "{{register.teacherCode}}"
+                    wx:if="{{register.teacher}}"
+                    value="{{register.teacherCode}}"
+                    disabled="{{register.formDisabled}}"
                     type="number"
             >
             </van-field>
@@ -61,18 +65,29 @@
                     left-icon="phone-o"
                     error-message="{{ register.phoneError }}"
                     type="number"
+                    disabled="{{register.formDisabled}}"
                     bind:blur="setValue"
             >
             </van-field>
+            <van-cell
+                      id="registerConfirm"
+                      icon="success"
+                      title="我已确认使用此微信号注册"
+                      clickable="{{ register.btnSubmit }}"
+                      data-name="confirm"
+                      bind:click="setValue">
+                <van-icon slot="right-icon" name="{{register.confirm}}" class="custom-icon"/>
+            </van-cell>
             <van-button type="primary"
                         id="btnSubmit"
                         size="large"
                         loading-text="提交中..."
-                        loading = "{{register.registing}}"
-                        disabled = "{{ register.btnSubmit }}"
-                        bind:click = "register"
+                        loading="{{register.registing}}"
+                        disabled="{{ register.btnSubmit }}"
+                        bind:click="register"
                         bind:change="onChange"
-            >提交注册</van-button>
+            >提交注册
+            </van-button>
         </van-cell-group>
     </view>
 </van-action-sheet>

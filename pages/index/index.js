@@ -5,13 +5,14 @@ import Toast from '../../miniprogram_npm/vant-weapp/toast/toast';
 
 Page({
     data: {
-        motto: 'Hello World',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
         //注册表单
         show: false,
         register: {
+            confirm: 'circle', //确认按钮
+            formDisabled: false, //表单是否禁用
             btnSubmit: true,    //提交按钮是否可用
             roleText: '学生',
             id: "学号",
@@ -25,7 +26,7 @@ Page({
             submit: {
                 name: null,
                 idForStudent: null,
-                idForTeacher:null,
+                idForTeacher: null,
                 phone: null,
                 role: 1
             }
@@ -43,7 +44,6 @@ Page({
         })
     },
     onLoad: function () {
-
         //设置watch
         getApp().setWatcher(this);
         //获取userInfo
@@ -85,23 +85,22 @@ Page({
                 // 发送 res.code 到后台换取 openId, sessionKey, unionId
                 wx.request({
                     //线上测试服务器地址
+                    // url: "http://148.70.100.32/weApp/getopenid",
                     //本地测试后端地址
-                    // url: "http://localhost:8080/weApp/getopenid",
+                    url: "http://localhost:8080/weApp/getopenid",
                     method: 'GET', //请求方式
                     header: {
                         'Content-Type': 'application/json',
                     },
                     data: {
                         code: res.code,  //参数
-                        userInfo: that.data.userInfo    //用户名,头像...
+                        // userInfo: that.data.userInfo    //用户名,头像...
                     },
                     // 异步获取成功
                     success: function (res) {
                         console.log(res.data);
-                        //未注册
-                        if (res.data.code === 1001) {
-                            console.log(res.data.msg);
-                            //遮罩层显示--未注册--3秒
+                        if (res.data.code === 1001) {   //未注册
+                            //遮罩层显示--未注册--2秒
                             const toast = Toast.fail({
                                 mask: true,
                                 message: '未注册',
@@ -124,6 +123,26 @@ Page({
                                 }
                             }, 1000);
 
+                        } else if (res.data.code === 1000) {  //登陆成功
+                            //遮罩层显示--登陆成功
+                            const toast = Toast.success({
+                                mask: true,
+                                message: '登陆成功',
+                                selector: '#van-toast'
+                            });
+                            let second = 2;
+                            const timer = setInterval(() => {
+                                second--;
+                                if (second) {
+                                    toast.setData({
+                                        message: `登陆成功`
+                                    });
+                                } else {
+                                    clearInterval(timer);
+                                    Toast.clear();
+                                }
+                            }, 1000);
+
                         }
                         that.setData({
                             spinShow: false
@@ -138,6 +157,7 @@ Page({
                 })
             }
         })
+
     },
     watch: {
         submit: function (newVal, oldVal) {
@@ -181,49 +201,101 @@ Page({
     //注册
     register: function () {
         let that = this;
-        that.setData({'register.registing': true});
+        that.setData({
+            'register.registing': true,
+            'register.formDisabled': true
+        });
         //设置延迟500毫秒,等待数据验证存储到data后再提交
         setTimeout(function () {
             console.log(that.data.register.submit);
+            console.log(that.data.userInfo);
+            wx.request({
+                //本地接口
+                url: "http://localhost:8080/weApp/register",
+                method: 'POST', //请求方式
+                header: {
+                    'Content-Type': 'application/json',
+                },
+                data: {
+                    data: that.data.register.submit,  //注册参数
+                    userInfo: that.data.userInfo    //用户名,头像...
+                },
+                // 异步获取成功
+                success: function (res) {
+                    console.log(res.data);
+                    that.setData({
+                        'register.registing': false,
+                        'register.formDisabled': false
+                    });
+                }
+            })
         }, 500)
+    },
+    registerConfirm: function () {
+        if (this.data.register.confirm === 'circle') {
+            this.setData({
+                'register.confirm': 'question'
+            })
+        } else {
+            this.setData({
+                'register.confirm': 'circle'
+            })
+        }
     },
     //绑定注册表单输入
     setValue: function (e) {
         //将输入数据绑定到data
-        let target = "register.submit." + e.currentTarget.id;
-        this.setData({[target]: e.detail.value});
-        //格式验证
-        if (e.currentTarget.id === 'phone') {
-            //手机号码正则
-            let reg = /^((13[0-9])|(14[0-9])|(15[0-9])|(17[0-9])|(18[0-9]))\d{8}$/;
-            if (!reg.test(e.detail.value)) {
-                this.setData({'register.phoneError': '手机号码格式错误'})
-                this.setData({[target]: null});
-            } else {
-                this.setData({'register.phoneError': ''})
-            }
-        } else if (e.currentTarget.id === 'idForStudent') {
-            //学号
-            let reg = /^([B|Z])(1[0-9]|[20]\d)(0[1-9]|1[0-9]|[20]\d)(0[1-9]|1[0-9]|2[0-9]|[30]\d)(0[1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|[60]\d)$/;
-            if (!reg.test(e.detail.value)) {
-                this.setData({'register.idError': '请输入正确得学号'})
-                this.setData({[target]: null});
-            } else {
-                this.setData({'register.idError': ''})
-            }
-        } else if (e.currentTarget.id === 'idForTeacher') {
-            //工号
-            let reg = /^\d{6}$/;
-            if (!reg.test(e.detail.value)) {
-                this.setData({'register.idError': '请输入正确得工号'})
-                this.setData({[target]: null});
-            } else {
-                this.setData({'register.idError': ''})
+        if (e.currentTarget.id !== 'registerConfirm') {
+            let target = "register.submit." + e.currentTarget.id;
+            this.setData({[target]: e.detail.value});
+            //格式验证
+            if (e.currentTarget.id === 'phone') {
+                //手机号码正则
+                let reg = /^((13[0-9])|(14[0-9])|(15[0-9])|(17[0-9])|(18[0-9]))\d{8}$/;
+                if (!reg.test(e.detail.value)) {
+                    this.setData({'register.phoneError': '手机号码格式错误'})
+                    this.setData({[target]: null});
+                } else {
+                    this.setData({'register.phoneError': ''})
+                }
+            } else if (e.currentTarget.id === 'idForStudent') {
+                //学号
+                let reg = /^([B|Z])(1[0-9]|[20]\d)(0[1-9]|1[0-9]|[20]\d)(0[1-9]|1[0-9]|2[0-9]|[30]\d)(0[1-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|[60]\d)$/;
+                if (!reg.test(e.detail.value)) {
+                    this.setData({'register.idError': '请输入正确得学号'})
+                    this.setData({[target]: null});
+                } else {
+                    this.setData({'register.idError': ''})
+                }
+            } else if (e.currentTarget.id === 'idForTeacher') {
+                //工号
+                let reg = /^\d{6}$/;
+                if (!reg.test(e.detail.value)) {
+                    this.setData({'register.idError': '请输入正确得工号'})
+                    this.setData({[target]: null});
+                } else {
+                    this.setData({'register.idError': ''})
+                }
             }
         }
-        if (this.data.register.submit.name!== null&&this.data.register.submit.phone!== null&&(this.data.register.submit.idForStudent!== null||this.data.register.submit.idForTeacher!== null)){
+        if (e.currentTarget.id === 'registerConfirm') {
+            if (this.data.register.confirm === 'circle') {
+                this.setData({
+                    'register.confirm': 'question'
+                })
+            } else {
+                this.setData({
+                    'register.confirm': 'circle'
+                })
+            }
+        }
+        if (this.data.register.submit.name !== null && this.data.register.submit.phone !== null && this.data.register.confirm === 'question' && (this.data.register.submit.idForStudent !== null || this.data.register.submit.idForTeacher !== null )) {
             this.setData({
-                'register.btnSubmit':false
+                'register.btnSubmit': false
+            })
+        } else {
+            this.setData({
+                'register.btnSubmit': true
             })
         }
     }
